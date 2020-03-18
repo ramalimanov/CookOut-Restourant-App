@@ -1,0 +1,78 @@
+$yellow: #fdce4b;
+$blue: #193c62;
+$green: #41B3A3;
+$orange: #f07c41;
+
+.img-container {
+    position: relative;
+    width: 30%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    float: left!important;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0.7;
+    position: absolute;
+    top:0;
+    text-align: center;
+    width: 100%;
+}
+
+.middle:hover {
+    opacity: 1;
+}
+
+.text {
+    background-color: $yellow;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+a {
+    font-weight: 800;
+}
+
+.Name {
+    text-shadow: #99f999 0px -2px 5px;
+    color: #3b7ef9;
+    font-size: 25px;
+}
+
+.Ingredient { 
+    background-color: #83afe2;
+    background-image: linear-gradient(rgb(162, 188, 236), rgb(170, 207, 170));
+    padding-top: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.Instructions {
+    padding: 10px;
+    background-image: linear-gradient(rgb(170, 207, 170), rgb(162, 188, 236));
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Ingredient h5, .Instructions h5{
+    font-weight: 800;
+}
+
+.footer {
+    font-weight: 800;
+    color: #dddddd;
+    background-color: $blue;
+    height: 30px;
+    border-top: 4px solid $yellow;
+    text-align: center;
+    box-sizing: border-box;
+}
