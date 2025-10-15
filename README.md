@@ -1,4 +1,4 @@
-# CookOut
+# CookOut-Restourant-App
 
 ## Elevator Pitch
 
