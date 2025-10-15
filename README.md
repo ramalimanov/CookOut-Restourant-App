@@ -1,9 +1,5 @@
 # CookOut
 
-Deployed App: https://smaji08.github.io/CookOut/
-
-GitHub Repo : https://github.com/smaji08/CookOut
-
 ## Elevator Pitch
 
 Are you hungry? Do you want to cook at home or go out? Why not start by going to CookOut a web application that alows users to search a chef-curated database of recipes. Find what you want to cook tonight or save a tasty recipe for later. Don't want to cook? Search your local area for amazing restaurants and find the highest rated or least expensive joint in your area.
